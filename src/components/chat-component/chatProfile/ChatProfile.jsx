@@ -4,11 +4,11 @@ export default function ChatProfile(){
     return(
         <>
         <div className="box1">
-            testName
+            Username
         </div>
         
         <div className="box2">
-            testingDesc
+            UserDescription
 
         </div>
         
