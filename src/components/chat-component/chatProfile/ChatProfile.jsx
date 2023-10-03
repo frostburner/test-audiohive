@@ -8,7 +8,7 @@ export default function ChatProfile(){
         </div>
         
         <div className="box2">
-            UserDescription
+            UserDescription-test
 
         </div>
         

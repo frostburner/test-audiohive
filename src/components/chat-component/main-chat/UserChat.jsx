@@ -4,7 +4,8 @@ export default function UserChat(){
     return(
         <>
            <div className="chatName">
-            <h1>Convo with user</h1>
+            <img src="/assets/people/profile-test.jpg" alt="" className="topbarImg"/> 
+            <h1 className="chatUserName"> Chat with userTest</h1>
             
             </div> 
         
