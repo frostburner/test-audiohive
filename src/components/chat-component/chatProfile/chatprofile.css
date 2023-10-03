@@ -1,0 +1,17 @@
+.box1 {
+    width: inherit;
+    height: 30%;
+    background-color:#d9d9d9;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box2{
+    width: inherit;
+    height: 67%;
+    background-color:#d9d9d9;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}

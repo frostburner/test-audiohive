@@ -1,0 +1,6 @@
+.parentDiv {
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+        margin-top: 15px;
+    }

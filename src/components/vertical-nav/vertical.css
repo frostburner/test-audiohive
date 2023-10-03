@@ -1,0 +1,56 @@
+.verticalNav {
+    flex: 1.5;
+    top: 0;
+    padding-left: 10px;
+    padding-top: 50px;
+    width: auto;
+    height: 500px;
+    position:sticky ;
+    
+  
+  }
+
+  .homeButton {
+    padding-right: 10px;
+    cursor: pointer;
+    color: #02C39A;
+    transform: scale(1.5);
+  }
+
+  .navHolder {
+    margin: 40px;
+    display: flex;
+    width: auto;
+    height: 30px;
+   
+    
+  }
+
+  .navHolder span {
+    color: #02C39A;
+    text-decoration: none;
+  }
+
+  .navHolder li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    background-color: white;
+    text-align: right;
+    
+  }
+
+  .navHolder ul {
+    padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  }
+
+.navContainer {
+  text-align: left;
+  float: left;
+
+  display: block;
+  
+}
