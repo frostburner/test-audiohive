@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: auto;
+    margin: 10px;
+    background-color:bisque;
+}
+
+
+.eventsBox {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin: 15px;
+}
+
+span {
+    color: black;
+}
+
+.testEvents {
+    justify-content: space-around;
+}

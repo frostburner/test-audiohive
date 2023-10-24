@@ -1,5 +1,5 @@
 import "./vertical.css"
-import HomeIcon from '@mui/icons-material/Home';
+// import HomeIcon from '@mui/icons-material/Home';
 import FolderCopyIcon from '@mui/icons-material/FolderCopy';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import DashboardIcon from '@mui/icons-material/Dashboard';
@@ -44,7 +44,7 @@ function CustomLink({ to, children, ...props }) {
     const path = window.location.pathname;
   
     return (
-      <li className={path == to ? "active" : ""}>
+      <li className={path === to ? "active" : ""}>
         <Link to={to} {...props}>
           {children}
         </Link>

@@ -1,9 +1,7 @@
 .verticalNav {
-    flex: 1.5;
+    flex: 1;
     top: 0;
     padding-left: 10px;
-    padding-top: 50px;
-    width: auto;
     height: 500px;
     position:sticky ;
     

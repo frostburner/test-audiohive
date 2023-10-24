@@ -6,7 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 export default function UserComponent(){
         return(
             <>
-            <div className="container">
+            <div className="userContainer">
                 <div className="userSearch">
                 <SearchIcon className="search" />
                     <input className="searchInput" />

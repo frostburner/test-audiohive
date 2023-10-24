@@ -1,5 +1,11 @@
-.parentDiv {
-    display: flex;
-    flex: 9;
+
+.verticalDiv {
+    display:flex;
+    float: left;
+    max-width: 20%;
+}
+
+.projectContainer {
     
+    width: auto;
 }

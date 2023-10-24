@@ -6,14 +6,9 @@ import ChatProfile from "./chatProfile/ChatProfile"
 export default function Chatting(){
     return(
         <>
-
         <div className="users-online"><UserComponent/></div>
-
         <div className="middle-part"><UserChat /></div>
-
-
         <div className="right-part"><ChatProfile/></div>
-
         </>
     )
 }

@@ -1,16 +1,18 @@
 import Vertical from "../../components/vertical-nav/Vertical";
-import "./project-css.css"
+import "./project-css.css";
+import ProjectComponent from "../../components/project-component/ProjectsComponent";
 
-export default function Project(){
-    return(
-        <>
-        <div className="parentDiv">
-        <Vertical /> 
-
-
-        <h1>Testing</h1>
+export default function Project() {
+  return (
+    <>
+      <div className="verticalDiv">
+         <Vertical />
         </div>
-        
-        </>
-    )
+        <div className="projectContainer">
+            <h1> Testing Projects Tabs </h1>
+        <ProjectComponent />
+      </div>
+      
+    </>
+  );
 }
