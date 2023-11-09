@@ -82,20 +82,33 @@ export const Posts = [
 export const Events = [
     {
         eventId:1,
-        eventPicture: "assets/people/friend-3.jpg",
+        src: "assets/people/friend-3.jpg",
         eventDate: "9/11/2001",
+        dpotanarafael:"sakit simo boss"
     },
 
     {
         eventId:2,
-        eventPicture: "assets/people/friend-3.jpg",
+        src: "assets/people/friend-3.jpg",
         eventDate: "9/12/2011",
     },
 
     {
         eventId:3,
-        eventPicture: "assets/people/friend-3.jpg",
+        src: "assets/people/friend-3.jpg",
         eventDate: "9/19/2022",
     },
-
+    {
+        eventId:3,
+        src: "assets/people/friend-3.jpg",
+        eventDate: "9/19/2022",
+    },{
+        eventId:3,
+        src: "assets/people/friend-3.jpg",
+        eventDate: "9/19/2022",
+    },{
+        eventId:3,
+        src: "assets/people/friend-3.jpg",
+        eventDate: "9/19/2022",
+    },
 ]

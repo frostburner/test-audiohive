@@ -3,7 +3,7 @@
     width: 300px;
     height: 200px;
     padding: 50px;
-    margin: 15px;
+    margin: 15px;   
 }
 
 span {
@@ -11,5 +11,9 @@ span {
 }
 
 .testEvents {
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
 }

@@ -10,6 +10,7 @@ import "./profile.css"
 export default function Profile() {
     return(
         <>
+        <Topbar />
           <div className="profile">
           <Vertical/>
             <div className="profileRight">

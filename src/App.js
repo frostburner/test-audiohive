@@ -1,5 +1,4 @@
 
-import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/homepage/Home";
 import Profile from "./pages/profile/Profile";
 import Dashboard from "./pages/dashboardUser/Dashboard";
@@ -16,7 +15,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
    <>
-   <Topbar/>
+
     <Routes>
       <Route path="/" element = {<Home />} />
       <Route path="/testing" element = {<Testing />} />

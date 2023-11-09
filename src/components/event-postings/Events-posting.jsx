@@ -4,10 +4,16 @@ import "./events-posting.css";
 
 export default function EventDisplay() {
     return (
+        <>
         <div className="testEvents">
-            <div className="event">{Events.eventDate}</div>
-            <div className="event">{Events.eventDate}</div>
-            <div className="event">{Events.eventDate}</div>
+        {Events.map((data, item)=>{
+            return(
+            <div className="event" key={item}>{data.eventDate}<br/>{data.eventId}</div>
+            );
+        })}
         </div>
+        
+        </>
+        
     )
 }
