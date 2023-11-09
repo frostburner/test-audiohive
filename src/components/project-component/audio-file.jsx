@@ -16,7 +16,7 @@ function AudioPlayer() {
     []
   );
 
-  const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
+  const [currentAudioIn, setCurrentAudioIndex] = useState(0);
 
   useEffect(() => {
     const audioElements = audioRefs.current.map((ref) => ref.current);
@@ -35,19 +35,6 @@ function AudioPlayer() {
       });
     };
   }, [audioRefs]);
-
-  useEffect(() => {
-    const audioElements = audioRefs.current.map((ref) => ref.current);
-
-    audioElements.forEach((audioElement, index) => {
-      if (index === currentAudioIndex) {
-        audioElement.play();
-      } else {
-        audioElement.pause();
-        audioElement.currentTime = 0;
-      }
-    });
-  }, [currentAudioIndex]);
 
   return (
     <div className="audio-player">

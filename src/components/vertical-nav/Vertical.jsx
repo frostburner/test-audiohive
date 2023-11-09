@@ -1,5 +1,4 @@
 import "./vertical.css"
-// import HomeIcon from '@mui/icons-material/Home';
 import FolderCopyIcon from '@mui/icons-material/FolderCopy';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import DashboardIcon from '@mui/icons-material/Dashboard';
@@ -13,41 +12,45 @@ export default function Rightbar({profile}) {
                 <div className="verticalNav">
                   <div className="navContainer">
                     <li className="navHolder">
-                      <CustomLink to ="/dashboard">
-                          <DashboardIcon style={{color: "#02C39A"}}/>
-                      </CustomLink> <span> Dashboard </span> 
-                      </li>
+                      <CustomLink to ="/dashboard" className="noDeco">
+                          <DashboardIcon style={{color: "#02C39A"}} />
+                          <span> Dashboard </span> 
+                      </CustomLink>
+                    </li>
                    
                    <li className="navHolder">
-                        <CustomLink to ="/project">
+                        <CustomLink to ="/project" className="noDeco">
                             <FolderCopyIcon style={{color: "#02C39A", left:"10px"}}  />  
-                        </CustomLink><span> Project</span>
+                            <span> Project</span>
+                        </CustomLink>
                     </li>
 
                     <li className="navHolder">
-                        <CustomLink to ="/calendar">
+                        <CustomLink to ="/calendar" className="noDeco">
                             <CalendarMonthIcon style={{color: "#02C39A"}} /> 
-                        </CustomLink><span> Events</span> 
-                        
+                            <span> Events</span> 
+                        </CustomLink>
                     </li>
 
                     <li className="navHolder">
-                        <CustomLink to ="/merch">
+                        <CustomLink to ="/merch" className="noDeco">
                             <StoreIcon style={{color: "#02C39A"}} />
-                        </CustomLink><span>Merchandize</span>
-                        </li>
-                      </div>
+                            <span>Merchandize</span>
+                        </CustomLink>
+                    </li>
+                  </div>
                 </div>
     )
 }
+
 function CustomLink({ to, children, ...props }) {
     const path = window.location.pathname;
   
     return (
-      <li className={path === to ? "active" : ""}>
-        <Link to={to} {...props}>
+      <Link to={to} {...props}>
+        <li className={path === to ? "active" : ""}>
           {children}
-        </Link>
-      </li>
+        </li>
+      </Link>
     );
-  }
+}

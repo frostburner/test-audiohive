@@ -15,8 +15,8 @@ export default function Chatbox() {
                 <AttachFileIcon style={{color: "#000"}} />
                 <ImageIcon style={{color: "#000"}} />
                 <div className="sendContainer">
-                    <SendIcon  style={{color: "#000"}}/>
-                </div>
+                    <SendIcon fontSize="large" style={{color: "#000" }}/>
+                    </div>
             </div>
             
         </div>

@@ -52,3 +52,7 @@
   display: block;
   
 }
+
+.noDeco {
+  text-decoration: none;
+}
