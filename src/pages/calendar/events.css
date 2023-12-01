@@ -1,6 +1,6 @@
 .bannerImg {
     display: flex;
-    width: 1400px;
+    width: 100%;
     height: 530px;
     justify-content: center;
     padding: 0;

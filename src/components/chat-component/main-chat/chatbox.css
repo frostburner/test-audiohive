@@ -1,12 +1,29 @@
-.chatBoxContainer {
+/* .chatBoxContainer {
     width: inherit;
     height: 100px;
-   
-    margin-top: 70%;
+    padding-top: 70px;
     justify-content: center;
     align-items: center;
+    display: block;
+} */
+
+.chatBoxContainer {
     display: flex;
-}
+    flex-direction: column;
+    height: 90vh; /* Adjust the height to your preference */
+  }
+  
+  .messageList {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .messageListInner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
 .chatBox {
     width: 95%;
@@ -16,7 +33,8 @@
     align-items: center;
     border-radius: 10px;
     display: flex;
-    align-items: center;
+    margin-inline: auto;
+    
 }
 
 .chatBoxReal {
@@ -26,6 +44,7 @@
         resize: none;
         background-color: transparent;
         border: none;
+        outline: none;
       }
 .sendContainer {
     

@@ -1,0 +1,17 @@
+.messageContainer{
+    background: #00a896;
+    border-radius: 10px 10px 10px 0 ;
+    width: max-content;
+    padding: 10px;
+    margin:0 0 10px 10px;
+}
+
+.sender{
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.timestamp{
+    font-style: italic;
+    font-size: small;
+}
