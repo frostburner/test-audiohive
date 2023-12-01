@@ -9,6 +9,8 @@
 
 .rightbarWrapper{
     padding: 20px 20px 0 0;
+    background: #effefb;
+    height: 100%;
 }
 
 .eventContainer{
@@ -129,11 +131,12 @@
 }
 
 .ProfileSidebar {
-    background-color: #F8F9DE;
+    background-color: #effefb;
     margin-left: 20px;
     height: 175px;
     border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border: #1fe2ca 1px solid;
     
 }
 

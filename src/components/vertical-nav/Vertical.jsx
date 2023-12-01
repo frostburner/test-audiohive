@@ -38,6 +38,8 @@ export default function Rightbar({profile}) {
                             <span>Merchandize</span>
                         </CustomLink>
                     </li>
+
+                    
                   </div>
                 </div>
     )

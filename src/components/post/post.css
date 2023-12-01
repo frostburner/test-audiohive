@@ -1,11 +1,10 @@
 .post {
     width: 100%;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
-    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    border: #1fe2ca 1px solid;
     margin: 30px 0;   
-
-    background-color: #74B8C2;
+    background-color: #effefb;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .postWrapper {
@@ -34,14 +33,17 @@
     font-size: 18px;
     font-weight: 500;
     margin: 0  10px; 
+    color: #003331;
 }
 
 .postCategory {
     font-size: 12px;
+    color: #003331;
 }
 
 .postText {
     margin: 10px 0;
+    color: #003331;
 }
 
 
@@ -76,10 +78,12 @@
 
 .postReactCounter{
     font-size: 15px;
+    color: #003331;
 }
 
 .postCommentText{
     cursor:pointer;
     border-bottom: 1px dashed gray;
     font-size: 15px;
+    color: #003331;
 }

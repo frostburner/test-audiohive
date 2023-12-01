@@ -32,22 +32,22 @@ export default function Topbar() {
           <ul>
             <li className="topbarIconItem">
               <CustomLink to="/">
-                <HomeIcon style={{color: "#f0f3bd"}}/>
+                <HomeIcon style={{color: "#effefb"}}/>
               </CustomLink>
             </li>
             <li className="topbarIconItem">
               <CustomLink to="/calendar">
-                <CalendarMonthIcon style={{color: "#f0f3bd"}} />
+                <CalendarMonthIcon style={{color: "#effefb"}} />
               </CustomLink>
             </li>
             <li className="topbarIconItem">
               <CustomLink to="/ChatPage">
-                <ChatIcon style={{color: "#f0f3bd"}} />
+                <ChatIcon style={{color: "#effefb"}} />
               </CustomLink>
             </li>
             <li className="topbarIconItem">
               <CustomLink to="/notif">
-                <NotificationsIcon style={{color: "#f0f3bd"}} />
+                <NotificationsIcon style={{color: "#effefb"}} />
               </CustomLink>
             </li>
           </ul>
